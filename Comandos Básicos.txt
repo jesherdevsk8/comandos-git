@@ -39,5 +39,21 @@ git log
 
 __ Editar título do commit
 
-git commit --amend            <-- Abrirá o Editor padrão do teu OS
+git commit --amend       <-- Abrirá o Editor padrão do teu OS
 
+__ Sincronizar repositório local com repositório remoto no github
+
+git remote add origin https://github.com/jesherdevsk8/teste.git
+
+__ Enviar repositório local para repositório remoto
+
+git push -u origin master
+git push    <-- Usar quando a master lá estiver relacionada com o repositório remoto
+
+__ Sincronizar modificação direto no github com o repositório local
+
+git pull
+
+__ Clonar repositório
+
+git clone https://github.com/jesherdevsk8/teste.git
