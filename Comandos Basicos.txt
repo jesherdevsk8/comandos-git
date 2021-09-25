@@ -52,11 +52,11 @@ __Comandos Básicos:__
 
     __ Configurar e Setar Access Token do github no Linux
 
-    git config --global credential.helper cache
+        git config --global credential.helper cache
 
-    git config --global --unset credential.helper   // Para tirar verificação automática do Token
+        git config --global --unset credential.helper   // Para tirar verificação automática do Token
 
-    __ Sincronizar modificação direto no github com o repositório local
+    __ Buscar e integrar com outro repositório  ou local branch
 
         git pull
 
