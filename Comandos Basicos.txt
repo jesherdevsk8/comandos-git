@@ -62,4 +62,10 @@ __Comandos Básicos:__
 
     __ Clonar repositório
 
+
         git clone https://github.com/jesherdevsk8/teste.git
+    
+    __ Clonar repositório a partir de uma branch específica 
+       comando de clonar seguido da flag -b que significa branch, o nome da branch que deseja clonar que no exemplo abaixo é chamada de teste e por fim a url do repositório
+
+        git clone -b teste https://github.com/jesherdevsk8/teste.git 
