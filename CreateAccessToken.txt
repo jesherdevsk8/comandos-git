@@ -1,0 +1,24 @@
+
+Criar e setar Token de acesso Pessoal Github e Git no Linux (Manjaro)
+
+    Entre no github.com
+    
+        No canto superior direito de qualquer página,
+        clique na sua foto de perfil e, em seguida, clique em Configurações
+
+        Na barra lateral esquerda, clique em Developer settings (Configurações do desenvolvedor).
+
+        Na barra lateral esquerda, clique em Personal access tokens (tokens de acesso pessoal).
+
+        Click Generate new token.
+
+        Give your token a descriptive name.
+        "My bash Script"
+
+        To give your token an expiration, select the Expiration drop-down menu, then click a default or use the calendar picker.
+
+        coloque a opção No expiration   Obs( Se for um token pessoal )
+
+        Selecione todas permissões possíveis Obs( Se tbm for um token pessoal )
+
+        Click Generate token.
