@@ -3,57 +3,63 @@ O shell padrão do git é o bash, o shell padrão do linux.
 
 __Comandos Básicos:__
 
-__ Obter ajuda dos comandos do Git
+    __ Obter ajuda dos comandos do Git
 
-git help
-git help git-config | git help <comando>   <-- Abrirá o manual do comando especificado
+        git help
+        git help git-config | git help <comando>   // Abrirá o manual do comando especificado
 
-file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc   <-- local dos manuais no Windows
+        file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc   // local dos manuais no Windows
 
-__Configurando o Usuário do Git
+    __ Configurar o Usuário do Git
 
-git config --global user.name "Jesher Minelli"
+        git config --global user.name "Jesher Minelli"
 
-git config --global user.email "jesherdevsk8@gmail.com"
+        git config --global user.email "jesherdevsk8@gmail.com"
 
-__Comando de inicialização do Git
+    __ Comando de inicialização do Git
 
-git init
+        git init
 
-__ Verificar o status do Git
+    __ Verificar o status do Git
 
-git status
+        git status
 
-__ Adicionar arquivos no repositório local
+    __ Adicionar arquivos no repositório local
 
-git add nome.arq    <-- adiciona somente um arquivo
-git add .      <-- adiciona todos arquivos da pasta
+        git add nome.arq    // adiciona somente um arquivo
+        git add .      // adiciona todos arquivos da pasta
 
-__ Fazer um commit no repositório local
+    __ Fazer um commit no repositório local
 
-git commit -m "First Commit"
+        git commit -m "First Commit"
 
-__ Verificar registros de log do commit
+    __ Verificar registros de log do commit
 
-git log
+        git log
 
-__ Editar título do commit
+    __ Editar título do commit
 
-git commit --amend       <-- Abrirá o Editor padrão do teu OS
+        git commit --amend       // Abrirá o Editor padrão do teu OS
 
-__ Sincronizar repositório local com repositório remoto no github
+    __ Sincronizar repositório local com repositório remoto no github
 
-git remote add origin https://github.com/jesherdevsk8/teste.git
+        git remote add origin https://github.com/jesherdevsk8/teste.git
 
-__ Enviar repositório local para repositório remoto
+    __ Enviar repositório local para repositório remoto
 
-git push -u origin master
-git push    <-- Usar quando a master lá estiver relacionada com o repositório remoto
+        git push -u origin master
+        git push    // Usar quando a master lá estiver relacionada com o repositório remoto
 
-__ Sincronizar modificação direto no github com o repositório local
+    __ Configurar e Setar Access Token do github no Linux
 
-git pull
+    git config --global credential.helper cache
 
-__ Clonar repositório
+    git config --global --unset credential.helper   // Para tirar verificação automática do Token
 
-git clone https://github.com/jesherdevsk8/teste.git
+    __ Sincronizar modificação direto no github com o repositório local
+
+        git pull
+
+    __ Clonar repositório
+
+        git clone https://github.com/jesherdevsk8/teste.git
