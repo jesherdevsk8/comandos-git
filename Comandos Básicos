@@ -1,0 +1,43 @@
+Principais comandos do Git
+O shell padrão do git é o bash, o shell padrão do linux.
+
+__Comandos Básicos:__
+
+__ Obter ajuda dos comandos do Git
+
+git help
+git help git-config | git help <comando>   <-- Abrirá o manual do comando especificado
+
+file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc   <-- local dos manuais no Windows
+
+__Configurando o Usuário do Git
+
+git config --global user.name "Jesher Minelli"
+
+git config --global user.email "jesherdevsk8@gmail.com"
+
+__Comando de inicialização do Git
+
+git init
+
+__ Verificar o status do Git
+
+git status
+
+__ Adicionar arquivos no repositório local
+
+git add nome.arq    <-- adiciona somente um arquivo
+git add .      <-- adiciona todos arquivos da pasta
+
+__ Fazer um commit no repositório local
+
+git commit -m "First Commit"
+
+__ Verificar registros de log do commit
+
+git log
+
+__ Editar título do commit
+
+git commit --amend            <-- Abrirá o Editor padrão do teu OS
+
