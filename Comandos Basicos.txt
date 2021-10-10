@@ -62,7 +62,6 @@ __Comandos Básicos:__
 
     __ Clonar repositório
 
-
         git clone https://github.com/jesherdevsk8/teste.git
     
     __ Clonar repositório a partir de uma branch específica 
