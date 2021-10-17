@@ -1,4 +1,4 @@
 # Comandos básicos do Git
-
-Estudando git e github.
+* _**Ferramenta online para praticar git**_
+ -- _*[Visualizing Git](https://git-school.github.io/visualizing-git/#free)*_
 
