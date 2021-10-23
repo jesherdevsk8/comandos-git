@@ -40,10 +40,41 @@ git log
 ```
 git log --oneline --graph --decorate --all
 ```
+
+### Visualizar alterações realizadas com detalhes
+
+- Obs adicione o hash do commit à frente do show, os três primeiros números já são o suficiente
+```
+git show c71e
+```
+
+### Revisar alterações atuais
+```
+git diff
+
+git diff Nome-Arquivo     <-- você tbm pode especificar um arq
+
+git diff --staged    <-- ver os comandos na Stage Area
+```
+
 ### Editar título do commit
 ```
 git commit --amend       // Abrirá o Editor padrão do teu OS
 ```
+
+### Como excluir e restaurar arquivos dentro do Git
+
+* Deletar um arquivo
+```
+git rm -f Nome-Arquivo
+```
+- Restaurar um arquivo após commit, com o id do commit
+```
+git log --diff-filter=D --summary    <- para ver o nome do commit
+
+git checkout bfb4~1 Nome-Arquivo
+``` 
+
 ### Sincronizar repositório local com repositório remoto no github
 ```
 git remote add origin https://github.com/jesherdevsk8/teste.git
