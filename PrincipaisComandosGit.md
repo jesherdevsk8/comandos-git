@@ -66,7 +66,7 @@ git commit --amend       // Abrirá o Editor padrão do teu OS
 
 * Deletar um arquivo
 ```
-git rm -f Nome-Arquivo
+git rm Nome-Arquivo
 ```
 - Restaurar um arquivo após commit, com o id do commit
 ```
