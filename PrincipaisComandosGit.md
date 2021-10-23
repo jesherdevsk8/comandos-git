@@ -70,9 +70,9 @@ git rm Nome-Arquivo
 ```
 - Restaurar um arquivo após commit, com o id do commit
 ```
-git log --diff-filter=D --summary    <- para ver o nome do commit
+git log --diff-filter=D --summary    <- para ver o hash e o delte mode do commit
 
-git checkout bfb4~1 Nome-Arquivo
+git checkout a7da3~1 Nome-Arquivo    <- para recuperar arquivo com os quatro primeiros hash seguido de ~1 do commit
 ``` 
 
 ### Sincronizar repositório local com repositório remoto no github
