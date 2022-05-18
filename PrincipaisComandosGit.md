@@ -13,8 +13,11 @@ file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc   // local dos manuais 
 ```
 ### Configurar o Usuário do Git
 ```
+git config --global color.ui true
 git config --global user.name "Jesher Minelli"
 git config --global user.email "jesherdevsk8@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "jehser@email.com"
+
 ```
 ### Comando de inicialização do Git
 ```
