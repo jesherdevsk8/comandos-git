@@ -1,4 +1,6 @@
 # Comandos básicos do Git
-* _**Ferramenta online para praticar git**_
- -- _*[Visualizing Git](https://git-school.github.io/visualizing-git/#free)*_
+
+* **Acesse aqui** -- *[Principais Comandos git](https://github.com/jesherdevsk8/Git_comandos/blob/main/PrincipaisComandosGit.md)*
+
+* **Acesse aqui** -- *[Visualizing Git - Ferramenta online para praticar git](https://git-school.github.io/visualizing-git/#free)*
 
